@@ -1,0 +1,5 @@
+# Игнорировать файл appsettings.json
+appsettings.json
+
+# Игнорировать каталог .idea
+.idea/

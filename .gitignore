@@ -1,5 +1,6 @@
 # Игнорировать файл appsettings.json
 appsettings.json
+appsettings.Development.json
 
 # Игнорировать каталог .idea
 .idea/

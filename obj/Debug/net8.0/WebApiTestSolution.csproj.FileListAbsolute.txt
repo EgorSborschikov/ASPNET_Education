@@ -1,5 +1,4 @@
 /home/egor/Documents/WebApiTestSolution/bin/Debug/net8.0/appsettings.Development.json
-/home/egor/Documents/WebApiTestSolution/bin/Debug/net8.0/appsettings.json
 /home/egor/Documents/WebApiTestSolution/bin/Debug/net8.0/WebApiTestSolution
 /home/egor/Documents/WebApiTestSolution/bin/Debug/net8.0/WebApiTestSolution.deps.json
 /home/egor/Documents/WebApiTestSolution/bin/Debug/net8.0/WebApiTestSolution.runtimeconfig.json
@@ -109,3 +108,4 @@
 /home/egor/Documents/WebApiTestSolution/obj/Debug/net8.0/WebApiTestSolution.pdb
 /home/egor/Documents/WebApiTestSolution/obj/Debug/net8.0/WebApiTestSolution.genruntimeconfig.cache
 /home/egor/Documents/WebApiTestSolution/obj/Debug/net8.0/ref/WebApiTestSolution.dll
+/home/egor/Documents/WebApiTestSolution/obj/Debug/net8.0/WebApiTestSolution.sourcelink.json

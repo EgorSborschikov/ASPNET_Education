@@ -14,12 +14,22 @@ builder.Services.AddSwaggerGen(); // Добавление автогенерац
 // Настройеп использование службы Swagger
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+        c.RoutePrefix = string.Empty; // Swagger доступен из корневого каталога
+    });
+
 
 app.UseHttpsRedirection();
 
 app.Run();
+
+void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    app.UseRouting();
+    
+    app.UseEndpoints(endpoints => endpoints.MapControllers());
+}
